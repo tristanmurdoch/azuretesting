@@ -4,7 +4,7 @@ set -ex
 #parameters 
 {
 
-sudo mkdir -p /moodle > /tmp/apt1.log
+sudo mkdir -p /moodle
 
 # Moodle requirements
     sudo apt-get -y update > /dev/null
